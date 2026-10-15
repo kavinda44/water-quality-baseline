@@ -1,0 +1,7 @@
+Model,Strategy,Safe recall (strategy),FP (strategy),"FP (no handling, default threshold)","FP (no handling, threshold moved to same recall)"
+Logistic Regression,With SMOTE,0.78,217,24,180
+Logistic Regression,Class Weights,0.785,216,24,194
+Random Forest,With SMOTE,0.895,65,6,63
+Random Forest,Class Weights,0.875,46,6,57
+XGBoost,With SMOTE,0.785,23,7,16
+XGBoost,Class Weights,0.89,41,7,41

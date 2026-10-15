@@ -1,0 +1,7 @@
+Model,Features,Accuracy,Safe Recall,ROC-AUC,False Positives
+Logistic Regression,All 20 features,0.91875,0.485,0.8817321428571429,27
+Logistic Regression,Uranium removed (paper),0.9225,0.5,0.8746428571428572,24
+Random Forest,All 20 features,0.969375,0.78,0.9884999999999999,5
+Random Forest,Uranium removed (paper),0.951875,0.645,0.9850285714285714,6
+XGBoost,All 20 features,0.970625,0.8,0.9933,7
+XGBoost,Uranium removed (paper),0.95875,0.705,0.9885821428571429,7

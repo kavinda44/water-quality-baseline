@@ -1,0 +1,9 @@
+,Accuracy,Accuracy,Safe Precision,Safe Precision,Safe Recall,Safe Recall,MCC,MCC,ROC-AUC,ROC-AUC,False Positives,False Positives
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+Model,,,,,,,,,,,,
+Logistic Regression (Class Weights),0.8284,0.005,0.3775,0.0087,0.783,0.033,0.4616,0.0177,0.8891,0.0133,235.0,10.3816
+Logistic Regression (No SMOTE),0.9278,0.004,0.7636,0.0187,0.528,0.0292,0.598,0.0259,0.8789,0.0188,29.7,2.1628
+Logistic Regression (With SMOTE),0.8307,0.0049,0.3809,0.0088,0.7797,0.0349,0.4635,0.0185,0.8883,0.0135,230.7,10.3821
+Random Forest (Class Weights),0.9502,0.0029,0.9075,0.019,0.6264,0.0288,0.7295,0.0179,0.9801,0.0042,11.7,3.0203
+Random Forest (No SMOTE),0.9515,0.004,0.9207,0.0216,0.628,0.0329,0.7369,0.0235,0.9746,0.0049,9.9,2.9981
+Random Forest (With SMOTE),0.947,0.0054,0.7678,0.0363,0.7687,0.0262,0.7381,0.0239,0.9754,0.0042,42.7,8.8951
